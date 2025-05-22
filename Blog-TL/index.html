@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MG</title>
+        <link rel="icon" href="assets/img/log.png">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    </head>
+
+    <body class="bg-swatches-500 dark:bg-swatches-100">
+
+        <!-- Header -->
+        <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+            <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4 flex justify-center items-center">
+                        <img src="assets/img/log.png" class="h-10 mr-3 rounded-full" alt="">
+                        <a href="#" class="font-bold text-lg text-swatches-100 dark:text-swatches-500 py-6 block">MalGround</a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                            <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                            <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                        </button>
+
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-swatches-500 dark:bg-swatches-100 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent dark:lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:shadow-swatches-200">
+                            <ul class="block lg:flex font-bold">
+                                <li class="group">
+                                    <a href="#" class="text-base text-swatches-100 dark:text-swatches-500 py-2 mx-8 flex group-hover:text-swatches-300 transition duration-300 ease-in-out">Home</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#about" class="text-base text-swatches-100 dark:text-swatches-500 py-2 mx-8 flex group-hover:text-swatches-300 transition duration-300 ease-in-out">About</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#project" class="text-base text-swatches-100 dark:text-swatches-500 py-2 mx-8 flex group-hover:text-swatches-300 transition duration-300 ease-in-out">Project</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#blog" class="text-base text-swatches-100 dark:text-swatches-500 py-2 mx-8 flex group-hover:text-swatches-300 transition duration-300 ease-in-out">Blog</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#progress" class="text-base text-swatches-100 dark:text-swatches-500 py-2 mx-8 flex group-hover:text-swatches-300 transition duration-300 ease-in-out">Progress</a>
+                                </li>
+                                <li class="text-2xl flex items-center pl-8 lg:mt-0 sm:mt-3 text-swatches-100 dark:text-swatches-500 hover:text-swatches-300 dark:hover:text-swatches-400">
+                                    <div class="flex">
+                                        <input type="checkbox" class="hidden" id="dark-toggle">
+                                        <label for="dark-toggle">
+                                            <i class="toggle-circle cursor-pointer ri-sun-line" id="theme-icon"></i>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Start -->
+
+        <!-- Main Section -->
+        <section id="home" class="pt-36 pb-16">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="self-center px-4 lg:w-1/2 lg:text-left w-full text-center">
+                        <h1 class="text-base font-semibold text-swatches-100 md:text-4xl dark:text-swatches-500">Hello, It's
+                            <span class="block font-semibold text-swatches-300 dark:text-swatches-400 text-7xl md:text-8xl lg:text-7xl">Malvin</span>
+                        </h1>
+                        <h2 class="font-medium text-swatches-100 dark:text-swatches-500 text-lg mb-2 lg:text-1xl">A Student, Artist, And
+                            <span class="text-swatches-300 dark:text-swatches-400 font-semibold">
+                                Designer
+                            </span></h2>
+                        <p class="font-medium text-md text-swatches-100 dark:text-swatches-500 mb-10 leading-relaxed">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit. Consectetur animi tenetur voluptatum! Assumenda adipisci neque,
+                                                    soluta magni, aspernatur saepe eaque tenetur eligendi ab totam debitis.</p>
+
+                        <a href="#" class="text-lg font-bold text-swatches-500 bg-swatches-100 py-2 px-8 rounded-full hover:shadow-inner hover:bg-swatches-300 transition duration-300 ease-in-out dark:text-swatches-100 dark:bg-swatches-500 dark:hover:bg-swatches-300">Contact
+                                                    Me</a>
+                    </div>
+                    <div class="w-full self-end px-4 lg:w-1/2">
+                        <div class="mt-14 lg:mt-0 relative lg:right-0">
+                            <img src="public/img/log2.png" alt="Logo" class="mx-auto rounded-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Main Section End -->
+
+        <!-- About Section -->
+        <section id="about" class="pt-36 pb-16">
+            <div class="container">
+                <h4 class="font-bold text-swatches-500 dark:text-swatches-100 dark:bg-swatches-500 text-lg mb-14 bg-swatches-100 py-1 px-8 rounded-full w-fit mx-4">
+                    About Me</h4>
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 mb-10 lg:w-1/2">
+                        <h2 class="font-bold text-swatches-100 dark:text-swatches-500 text-3xl mb-5 max-w-md lg:text-4xl">Lorem ipsum dolor</h2>
+                        <p class="font-medium text-base text-swatches-300 dark:text-swatches-400 max-w-xl lg:text-lg">Lorem ipsum, dolor sit amet
+                                                    consectetur
+                                                    adipisicing elit.</p>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2">
+                        <h3 class="font-semibold text-swatches-100 dark:text-swatches-500 text-2xl mb-4 lg:text-3xl">Lorem ipsum dolor sit.</h3>
+                        <p class="font-medium text-base text-swatches-300 dark:text-swatches-400 mb-6 lg:text-lg">Lorem ipsum dolor sit amet
+                                                    consecteturadipisicing elit. Aliquid totam ullam facilis quam blanditiisin cum ex accusantium.
+                        </p>
+                        <div
+                            class="flex item-center">
+
+                            <!-- Instagram -->
+                            <a href="instagram.com" target="_blank" class="dark:border-swatches-500 dark:hover:bg-swatches-500 dark:hover:text-swatches-100 dark:text-swatches-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-swatches-100 hover:border-l-swatches-300
+                                                                                                                                                                                                            hover:bg-swatches-100 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out">
+                                <svg role="img" width="20" class="fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <title>Instagram</title>
+                                    <path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+                                </svg>
+                            </a>
+
+                            <!-- Facebook -->
+                            <a href="facebook.com" target="_blank" class="dark:border-swatches-500 dark:hover:bg-swatches-500 dark:hover:text-swatches-100 dark:text-swatches-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-swatches-100 hover:border-l-swatches-300
+                            hover:bg-swatches-100 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out">
+                                <svg role="img" width="20" class="fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <title>Facebook</title>
+                                    <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+                                </svg>
+                            </a>
+
+                            <!-- Github -->
+                            <a href="facebook.com" target="_blank" class="dark:border-swatches-500 dark:hover:bg-swatches-500 dark:hover:text-swatches-100 dark:text-swatches-500 w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-swatches-100 hover:border-l-swatches-300
+                            hover:bg-swatches-100 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out">
+                                <svg role="img" width="20" class="fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <title>GitHub</title>
+                                    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Project -->
+        <section id="project" class="pt-36 pb-32">
+            <div class="container">
+                <h4 class="font-bold text-swatches-500 dark:text-swatches-100 dark:bg-swatches-500 text-lg mb-14 bg-swatches-100 py-1 px-8 text-center rounded-full w-fit mx-auto">
+                    Project</h4>
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-5">
+                        <h2 class="font-bold text-swatches-100 dark:text-swatches-500 text-3xl mb-4">Newest Project</h2>
+                        <p class="font-medium text-md text-swatches-300 dark:text-swatches-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Fugiat cumque et maiores mollitia, ratione minima. Recusandae architecto quod debitis
+                                                    facilis.</p>
+                    </div>
+                </div>
+
+                <div class="w-full flex flex-wrap justify-center xl:w-12/12 xl:mx-auto">
+                    <div class="mb-10 p-4">
+                        <div class="flex flex-col md:flex-row items-center">
+                            <div class="rounded-xl shadow-md overflow-hidden md:w-1/2">
+                                <img class="lg:h-48 h-44 w-full" src="https://picsum.photos/360/100" alt="">
+                            </div>
+                            <div class="text-center md:text-left md:ml-6 lg:mt-3 md:mt-0 md:w-1/2 flex flex-col justify-between">
+                                <h3 class="font-semibold text-3xl text-swatches-100 dark:text-swatches-500
+                                 mb-1">Love Calculator</h3>
+                                <p class="font-medium md:text-sm text-swatches-300 dark:text-swatches-400 flex-grow">Lorem ipsum dolor sit amet
+                                                                    consectetur adipisicing elit. Tenetur voluptates nobis quaerat impedit doloribus facilis
+                                                                    modi accusantium velit?</p>
+                                <div class="lg:mt-14 mt-3">
+                                    <a href="https://malvin555.github.io/Love-Calculator/" class="text-md font-bold text-swatches-500 dark:text-swatches-100 dark:bg-swatches-500 bg-swatches-100 py-2 px-8 rounded-full hover:shadow-inner hover:bg-swatches-300 transition duration-300 ease-in-out inline-block dark:hover:bg-swatches-300">Read
+                                                                            More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-wrap justify-center xl:w-12/12 xl:mx-auto">
+                        <div class="mb-10 p-4">
+                            <div class="flex flex-col md:flex-row-reverse items-center">
+                                <div class="rounded-xl shadow-md overflow-hidden md:w-1/2">
+                                    <img class="lg:h-48 h-44 w-full" src="https://picsum.photos/360/100" alt="">
+                                </div>
+                                <div class="text-center md:text-right md:mr-6 lg:mt-3 md:mt-0 md:w-1/2 flex flex-col justify-between ">
+                                    <h3 class="font-semibold text-3xl text-swatches-100 dark:text-swatches-500 mb-1">Hello</h3>
+                                    <p class="font-medium md:text-sm text-swatches-300 dark:text-swatches-400 flex-grow">Lorem ipsum dolor sit amet
+                                                                            consectetur adipisicing elit. Tenetur voluptates nobis quaerat impedit doloribus
+                                                                            facilis modi accusantium velit?</p>
+                                    <div class="lg:mt-14 mt-4">
+                                        <a href="#" class="text-md font-bold text-swatches-500 dark:text-swatches-100 dark:bg-swatches-500 bg-swatches-100 py-2 px-8 rounded-full hover:shadow-inner hover:bg-swatches-300 transition duration-300 ease-in-out inline-block dark:hover:bg-swatches-300">Read
+                                                                                    More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+            <!-- End Project -->
+
+            <!-- Blog Section -->
+            <section id="blog" class="pt-36 pb-32">
+                <div class="container">
+                    <h4 class="font-bold text-swatches-500 dark:text-swatches-100 dark:bg-swatches-500 text-lg mb-14 bg-swatches-100 py-1 px-8 text-center rounded-full w-fit mx-auto">
+                        Blog</h4>
+                    <div class="w-full px-4">
+                        <div class="max-w-xl mx-auto text-center mb-5">
+                            <h2 class="font-bold text-swatches-100 dark:text-swatches-500 text-3xl mb-4">Newest Blog</h2>
+                            <p class="font-medium text-md text-swatches-300 dark:text-swatches-400">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit. Doloribus totam quis molestiae soluta!</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap">
+                        <div class="w-full px-4 lg:w-1/2 md:w-1/2 xl:w-1/3">
+                            <div class="bg-swatches-500 dark:bg-swatches-100 dark:shadow-swatches-200 rounded-xl overflow-hidden shadow-lg mb-10">
+                                <img src="https://picsum.photos/360/200" alt="" class="w-full">
+                                <div class="py-8 px-6">
+                                    <h3>
+                                        <a class="block mb-3 font-semibold text-xl text-swatches-100 hover:text-swatches-300 dark:hover:text-swatches-400 dark:text-swatches-500 truncate" href="">Lorem ipsum dolor</a>
+                                    </h3>
+                                    <p class="font-medium text-swatches-300 dark:text-swatches-400 text-base mb-6">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit. Repellendus, totam.</p>
+                                    <a class="font-medium text-sm text-swatches-500 dark:text-swatches-100 bg-swatches-100 dark:bg-swatches-500 py-2 px-4 rounded-lg hover:opacity-80" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 lg:w-1/2 md:w-1/2 xl:w-1/3">
+                            <div class="bg-swatches-500 dark:shadow-swatches-200 dark:bg-swatches-100 rounded-xl overflow-hidden shadow-lg mb-10">
+                                <img src="https://picsum.photos/360/200" alt="" class="w-full">
+                                <div class="py-8 px-6">
+                                    <h3>
+                                        <a class="block mb-3 font-semibold dark:text-swatches-500 text-xl text-swatches-100 hover:text-swatches-300 dark:hover:text-swatches-400 truncate" href="">Lorem ipsum dolor</a>
+                                    </h3>
+                                    <p class="font-medium text-swatches-300 dark:text-swatches-400 text-base mb-6">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit. Repellendus, totam.</p>
+                                    <a class="font-medium text-sm text-swatches-500 dark:text-swatches-100 bg-swatches-100 dark:bg-swatches-500 py-2 px-4 rounded-lg hover:opacity-80" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 lg:w-1/2 md:w-1/2 xl:w-1/3">
+                            <div class="bg-swatches-500 dark:shadow-swatches-200 dark:bg-swatches-100 rounded-xl overflow-hidden shadow-lg mb-10">
+                                <img src="https://picsum.photos/360/200" alt="" class="w-full">
+                                <div class="py-8 px-6">
+                                    <h3>
+                                        <a class="block mb-3 font-semibold text-xl text-swatches-100 hover:text-swatches-300 dark:hover:text-swatches-400 truncate dark:text-swatches-500" href="">Lorem ipsum dolor</a>
+                                    </h3>
+                                    <p class="font-medium text-swatches-300 dark:text-swatches-400 text-base mb-6">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit. Repellendus, totam.</p>
+                                    <a class="font-medium text-sm text-swatches-500 dark:text-swatches-100 bg-swatches-100 dark:bg-swatches-500 py-2 px-4 rounded-lg hover:opacity-80" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog Section End -->
+
+            <!-- Progress Info -->
+            <section id="progress" class="pt-36 pb-32">
+                <div class="container">
+                    <div class="w-full px-4 text-center">
+                        <h4 class="font-bold text-swatches-500 dark:text-swatches-100 dark:bg-swatches-500 text-lg mb-14 bg-swatches-100 py-1 px-8 text-center rounded-full w-fit mx-auto">
+                            Progress</h4>
+                        <h2 class="mt-6 text-3xl font-bold tracking-tight text-swatches-100 dark:text-swatches-500 sm:text-4xl lg:text-5xl">My Skill
+                        </h2>
+                        <p class="mx-auto mt-4 max-w-2xl text-lg font-normal text-swatches-300 dark:text-swatches-400 lg:text-xl lg:leading-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolores?
+                        </p>
+                    </div>
+                    <ul class="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+                        <li class="flex-start group relative flex lg:flex-col">
+                            <span class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-swatches-100 dark:bg-swatches-500 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]" aria-hidden="true"></span>
+                            <div class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-swatches-300 bg-swatches-500 dark:bg-swatches-100 transition-all duration-200 group-hover:border-swatches-100 group-hover:bg-swatches-100 dark:group-hover:bg-swatches-500">
+                                <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-swatches-100 group-hover:text-swatches-500 dark:text-swatches-500 dark:group-hover:text-swatches-100">
+                                    <path d="M21 12C21 13.6569 16.9706 15 12 15C7.02944 15 3 13.6569 3 12M21 5C21 6.65685 16.9706 8 12 8C7.02944 8 3 6.65685 3 5M21 5C21 3.34315 16.9706 2 12 2C7.02944 2 3 3.34315 3 5M21 5V19C21 20.6569 16.9706 22 12 22C7.02944 22 3 20.6569 3 19V5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="ml-6 lg:ml-0 lg:mt-10">
+                                <h3 class="text-xl font-bold text-swatches-100 dark:text-swatches-500 before:mb-2 before:block before:font-mono before:text-sm before:text-swatches-300">
+                                    Frontend
+                                </h3>
+                                <h4 class="mt-2 text-base text-swatches-300 dark:text-swatches-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                elit. Commodi, ipsam!</h4>
+                            </div>
+                        </li>
+                        <li class="flex-start group relative flex lg:flex-col">
+                            <span class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-swatches-100 dark:bg-swatches-500 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]" aria-hidden="true"></span>
+                            <div class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-swatches-300 bg-swatches-500 dark:bg-swatches-100 transition-all duration-200 group-hover:border-swatches-100 group-hover:bg-swatches-100 dark:group-hover:bg-swatches-500">
+                                <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-swatches-100 group-hover:text-swatches-500 dark:text-swatches-500 dark:group-hover:text-swatches-100">
+                                    <path d="M2 3L2 21M22 3V21M11.8 20H12.2C13.8802 20 14.7202 20 15.362 19.673C15.9265 19.3854 16.3854 18.9265 16.673 18.362C17 17.7202 17 16.8802 17 15.2V8.8C17 7.11984 17 6.27976 16.673 5.63803C16.3854 5.07354 15.9265 4.6146 15.362 4.32698C14.7202 4 13.8802 4 12.2 4H11.8C10.1198 4 9.27976 4 8.63803 4.32698C8.07354 4.6146 7.6146 5.07354 7.32698 5.63803C7 6.27976 7 7.11984 7 8.8V15.2C7 16.8802 7 17.7202 7.32698 18.362C7.6146 18.9265 8.07354 19.3854 8.63803 19.673C9.27976 20 10.1198 20 11.8 20Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="ml-6 lg:ml-0 lg:mt-10">
+                                <h3 class="text-xl font-bold text-swatches-100 dark:text-swatches-500 before:mb-2 before:block before:font-mono before:text-sm before:text-swatches-300">
+                                    Backend
+                                </h3>
+                                <h4 class="mt-2 text-base text-swatches-300 dark:text-swatches-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                elit. Magnam.</h4>
+                            </div>
+                        </li>
+                        <li class="flex-start group relative flex lg:flex-col">
+                            <span class="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-swatches-100 dark:bg-swatches-500 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]" aria-hidden="true"></span>
+                            <div class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-swatches-300 bg-swatches-500 dark:bg-swatches-100 transition-all duration-200 group-hover:border-swatches-100 group-hover:bg-swatches-100 dark:group-hover:bg-swatches-500">
+                                <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-swatches-100 dark:text-swatches-500 group-hover:text-swatches-500 dark:group-hover:text-swatches-100">
+                                    <path d="M22 12C22 17.5228 17.5228 22 12 22M22 12C22 6.47715 17.5228 2 12 2M22 12C22 9.79086 17.5228 8 12 8C6.47715 8 2 9.79086 2 12M22 12C22 14.2091 17.5228 16 12 16C6.47715 16 2 14.2091 2 12M12 22C6.47715 22 2 17.5228 2 12M12 22C14.2091 22 16 17.5228 16 12C16 6.47715 14.2091 2 12 2M12 22C9.79086 22 8 17.5228 8 12C8 6.47715 9.79086 2 12 2M2 12C2 6.47715 6.47715 2 12 2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="ml-6 lg:ml-0 lg:mt-10">
+                                <h3 class="text-xl font-bold text-swatches-100 dark:text-swatches-500 before:mb-2 before:block before:font-mono before:text-sm before:text-swatches-300">
+                                    TypeScripter
+                                </h3>
+                                <h4 class="mt-2 text-base text-swatches-300 dark:text-swatches-400">Lorem ipsum dolor sit amet consectetur.</h4>
+                            </div>
+                        </li>
+                        <li class="flex-start group relative flex lg:flex-col">
+                            <div class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-swatches-300 bg-swatches-500 dark:bg-swatches-100 transition-all duration-200 group-hover:border-swatches-100 group-hover:bg-swatches-100 dark:group-hover:bg-swatches-500">
+                                <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-swatches-100 dark:text-swatches-500 group-hover:text-swatches-500 dark:group-hover:text-swatches-100">
+                                    <path d="M5.50049 10.5L2.00049 7.9999L3.07849 6.92193C3.964 6.03644 4.40676 5.5937 4.9307 5.31387C5.39454 5.06614 5.90267 4.91229 6.42603 4.86114C7.01719 4.80336 7.63117 4.92617 8.85913 5.17177L10.5 5.49997M18.4999 13.5L18.8284 15.1408C19.0742 16.3689 19.1971 16.983 19.1394 17.5743C19.0883 18.0977 18.9344 18.6059 18.6867 19.0699C18.4068 19.5939 17.964 20.0367 17.0783 20.9224L16.0007 22L13.5007 18.5M7 16.9998L8.99985 15M17.0024 8.99951C17.0024 10.1041 16.107 10.9995 15.0024 10.9995C13.8979 10.9995 13.0024 10.1041 13.0024 8.99951C13.0024 7.89494 13.8979 6.99951 15.0024 6.99951C16.107 6.99951 17.0024 7.89494 17.0024 8.99951ZM17.1991 2H16.6503C15.6718 2 15.1826 2 14.7223 2.11053C14.3141 2.20853 13.9239 2.37016 13.566 2.5895C13.1623 2.83689 12.8164 3.18282 12.1246 3.87469L6.99969 9C5.90927 10.0905 5.36406 10.6358 5.07261 11.2239C4.5181 12.343 4.51812 13.6569 5.07268 14.776C5.36415 15.3642 5.90938 15.9094 6.99984 16.9998V16.9998C8.09038 18.0904 8.63565 18.6357 9.22386 18.9271C10.343 19.4817 11.6569 19.4817 12.7761 18.9271C13.3643 18.6356 13.9095 18.0903 15 16.9997L20.1248 11.8745C20.8165 11.1827 21.1624 10.8368 21.4098 10.4331C21.6291 10.0753 21.7907 9.6851 21.8886 9.27697C21.9991 8.81664 21.9991 8.32749 21.9991 7.34918V6.8C21.9991 5.11984 21.9991 4.27976 21.6722 3.63803C21.3845 3.07354 20.9256 2.6146 20.3611 2.32698C19.7194 2 18.8793 2 17.1991 2Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="ml-6 lg:ml-0 lg:mt-10">
+                                <h3 class="text-xl font-bold text-swatches-100 dark:text-swatches-500 before:mb-2 before:block before:font-mono before:text-sm before:text-swatches-300">
+                                    Security
+                                </h3>
+                                <h4 class="mt-2 text-base text-swatches-300 dark:text-swatches-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                elit. Repellendus odio, cum necessitatibus dicta maxime recusandae.</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Progress Info End -->
+
+            <!-- Footer -->
+            <section class="pt-36 pb-32">
+                <div class="container">
+                    <div class="w-full px-4">
+                        <div class="text-center">
+                            <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-swatches-100 dark:text-swatches-500">
+                                <img src="public/img/log.png" class="h-12 mr-3 sm:h-9 rounded-full" alt="">
+                                MalGround
+                            </a>
+
+                            <span class="block text-sm text-center text-swatches-300 dark:text-swatches-400">© 2023-2024 MalGround™. All Rights
+                                                        Reserved.
+                                                        Built with
+                                <a href="#" class="text-swatches-100 dark:text-swatches-500 hover:underline font-bold">MG</a>
+                                and
+                                <a href="https://tailwindcss.com" class="text-swatches-100 dark:text-swatches-500 hover:underline font-bold">Tailwind
+                                                                CSS
+                                </a>.
+                            </span>
+
+                            <ul class="flex justify-center mt-5 space-x-5">
+                                <li>
+                                    <a href="#" class="text-swatches-100 dark:text-swatches-500 hover:text-swatches-300">
+                                        <svg class="w-5 h-5 rounded-md flex justify-center items-center
+                                                                                                                hover:bg-swatches-100 dark:text-swatches-500 dark:hover:text-swatches-100 dark:hover:bg-swatches-500 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out" fill="currentColor" viewbox="0 0 24 24" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-swatches-100 hover:text-swatches-300">
+                                        <svg class="w-5 h-5 rounded-md flex justify-center items-center
+                                        hover:bg-swatches-100 dark:text-swatches-500 dark:hover:text-swatches-100 dark:hover:bg-swatches-500 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out" fill="currentColor" fill="currentColor" viewbox="0 0 24 24" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-swatches-100 hover:text-swatches-300">
+                                        <svg class="w-5 h-5 rounded-md flex justify-center items-center
+                                        hover:bg-swatches-100 dark:text-swatches-500 dark:hover:text-swatches-100 dark:hover:bg-swatches-500 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out" fill="currentColor" fill="currentColor" viewbox="0 0 24 24" aria-hidden="true">
+                                            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-swatches-100 hover:text-swatches-300">
+                                        <svg class="w-5 h-5 rounded-md flex justify-center items-center
+                                        hover:bg-swatches-100 dark:text-swatches-500 dark:hover:text-swatches-100 dark:hover:bg-swatches-500 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out" fill="currentColor" fill="currentColor" viewbox="0 0 24 24" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-swatches-100 hover:text-swatches-300">
+                                        <svg class="w-5 h-5 rounded-md flex justify-center items-center
+                                        hover:bg-swatches-100 dark:text-swatches-500 dark:hover:text-swatches-100 dark:hover:bg-swatches-500 hover:text-swatches-500 text-swatches-100 transition duration-300 ease-in-out" fill="currentColor" fill="currentColor" viewbox="0 0 24 24" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer End -->
+
+
+            <!-- Back To Top -->
+            <a href="#home" class="h-14 w-14 bg-swatches-100 rounded-full border dark:border-swatches-400 fixed z-[9999] bottom-4 hidden justify-center items-center right-4 p-4 hover:animate-pulse" id="top-arrow">
+                <span class="block w-5 h-5  border-t-2 border-l-2 rotate-45 mt-2"></span>
+            </a>
+            <!-- Back To Top End -->
+
+            <script src="assets/js/app.js"></script>
+        </body>
+    </body>
+
+</html>
