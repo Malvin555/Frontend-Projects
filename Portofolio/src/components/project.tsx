@@ -85,7 +85,11 @@ export default function ProjectsSection() {
 
                   <div className="flex flex-wrap gap-2 mb-6">
                     {repo.topics?.map((topic, j) => (
-                      <Badge key={j} variant="secondary" className="text-xs">
+                      <Badge
+                        key={j}
+                        variant="secondary"
+                        className="text-xs bg-gray-200/30"
+                      >
                         {topic}
                       </Badge>
                     ))}
