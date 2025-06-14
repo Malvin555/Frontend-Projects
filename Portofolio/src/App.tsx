@@ -10,7 +10,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { AnimatedSection } from "@/components/animated-section";
 import {
   Github,
@@ -213,7 +212,15 @@ export default function Portfolio() {
               <Button
                 key={i}
                 size="lg"
-                variant={btn.variant || "default"}
+                variant={
+                  (btn.variant as
+                    | "default"
+                    | "link"
+                    | "outline"
+                    | "destructive"
+                    | "secondary"
+                    | "ghost") || "default"
+                }
                 onClick={btn.action}
                 className={`
                   px-8 py-4 text-lg hover:scale-105 transition-transform
